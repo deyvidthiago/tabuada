@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400&display=swap');
+*{margin: 0; padding: 0; box-sizing: border-box;}
+body {
+    font-family: 'Roboto', sans-serif;
+ text-align: center;
+ background-color: rgba(9, 134, 206, 0.349);
+}
+#form{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+#form input{
+    outline: none;
+    width: 80px;
+    height: 25px;
+    }
+section{
+    width: 60vw;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+}
+#selecionar{
+   width: 50%;
+   padding: 10px;
+   margin: 10px;
+}
